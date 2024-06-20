@@ -1,31 +1,29 @@
-import { useEffect, useState } from "react"
+import { useEffect, useState } from "react";
 import Loader from "./component/Loader";
-
-
+import Header from "./component/Header";
 
 function App() {
-
-
-  const [isLoading,setLoading]= useState(true)
+  const [isLoading, setLoading] = useState(true);
   // loading functions
-useEffect(()=>{
-const fakeData=()=>{
-  setTimeout(() => {
-    setLoading(false)
-  },4000);
-}
-fakeData()
-},[])
+  useEffect(() => {
+    const fakeData = () => {
+      setTimeout(() => {
+        setLoading(false);
+      }, 1000);
+    };
+    fakeData();
+  }, []);
   return (
     <>
-     {
-      isLoading? <Loader/> : <>
-      
-      <h1>hi</h1>
-      </>
-     }
+      {isLoading ? (
+        <Loader />
+      ) : (
+        <>
+          <Header />
+        </>
+      )}
     </>
-  )
+  );
 }
 
-export default App
+export default App;
