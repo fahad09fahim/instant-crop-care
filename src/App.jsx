@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import Loader from "./component/Loader";
 import Header from "./component/Header";
+import Banner from "./component/Banner";
+import Products from "./component/Products";
 
 function App() {
   const [isLoading, setLoading] = useState(true);
@@ -20,6 +22,8 @@ function App() {
       ) : (
         <>
           <Header />
+          <Banner/>
+          <Products/>
         </>
       )}
     </>
