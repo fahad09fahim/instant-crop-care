@@ -3,7 +3,7 @@ const CardData = ({ product }) => {
   const { name, img, measurement, elements, details } = product;
   return (
     <div>
-      <div className="card bg-base-100 shadow-xl max-h-full md:max-h-full lg:max-h-dvh	">
+      <div className="card bg-base-100 shadow-xl h-full md:max-h-full lg:max-h-dvh	">
         <figure>
           <img
             className="p-1 lg:p-3 rounded-md"
@@ -11,7 +11,7 @@ const CardData = ({ product }) => {
             alt={name}
           />
         </figure>
-        <div className="card-body">
+        <div className="card-body text-base">
           <h2 className="card-title">{name}</h2>
           <p><span className="font-semibold">কার্যকারী উপাদানঃ </span>{elements}</p>
           <p><span className="font-semibold">প্রয়োগক্ষেত্রঃ </span>{details}</p>

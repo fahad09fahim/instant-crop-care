@@ -4,9 +4,9 @@ import {  Bars3BottomRightIcon, XMarkIcon } from '@heroicons/react/24/solid'
 const Header = () => {
     const  navLinks =[
         {name:"HOME",link:"/"},
-        {name:"PRODUCTS",link:"/#products"},
-        {name:"ABOUT",link:"/#about"},
-        {name:"GALLERY",link:"/#gallery"},
+        {name:"PRODUCTS",link:"#products"},
+        {name:"ABOUT",link:"#about"},
+        {name:"GALLERY",link:"#gallery"},
       ];
       const [open, setOpen] =useState(false);
 

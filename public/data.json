@@ -38,6 +38,46 @@
         "details":"ধান, গম, ভুট্টা আলু, টমেটো, পেঁয়াজ, আম, লিচু, কলা, সরিষা, বাধাকপি, ফুলকপি, কলা, পেপে, কুমড়া, ডাল, রসুন ও তেল জাতীয়সহ সকল ফসলের জিংক ও সালফারের অভাব পূরনের জন্য এবং আশানুরূপ ফল পেতে সুপার জিংক ব্যবহার করুন।",
         "measurement":"একর প্রতি (৩-৪) কেজি হারে।",
         "img":"https://i.postimg.cc/0jF76Qj7/super-zink.jpg"
+    },
+    {
+        "id":6,
+        "name":"এস-ক্যাল",
+        "elements":"ক্যালসিয়াম ২০% এবং সালফার ১৬%",
+        "details":"",
+        "measurement":"",
+        "img":"https://i.postimg.cc/tJ1231Z6/ascal.jpg"
+    },
+    {
+        "id":7,
+        "name":"ফলন বৃদ্ধি",
+        "elements":"ক্লোরফেনিক্স এসিটিক এসিড ১২৫০ পিপিএম",
+        "details":"",
+        "measurement":"",
+        "img":"https://i.postimg.cc/MTpsG3zd/folon.jpg"
+    },
+    {
+        "id":8,
+        "name":"এস বরিক",
+        "elements":"বরিক এসিড। বোরনঃ ১৭%",
+        "details":"",
+        "measurement":"",
+        "img":"https://i.postimg.cc/76tKJ16D/s-boric.jpg"
+    },
+    {
+        "id":9,
+        "name":"স্পীড প্লাস ট্যাব",
+        "elements":"",
+        "details":"",
+        "measurement":"",
+        "img":"https://i.postimg.cc/Zqc74zzW/speed-plus.jpg"
+    },
+    {
+        "id":10,
+        "name":"উর্বর প্লাস",
+        "elements":"",
+        "details":"",
+        "measurement":"",
+        "img":"https://i.postimg.cc/2S5FhbsS/urbor-plus.jpg"
     }
 
 

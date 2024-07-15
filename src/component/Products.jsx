@@ -10,7 +10,7 @@ useEffect(()=>{
   .then(data=>setProducts(data))
 },[])  
   return (
-    <section className="relative mt-2 md:mt-3 lg:mt-6">
+    <section className="relative mt-2 md:mt-3 lg:mt-6" id="products">
       <div className="mb-3">
         <h1 className="text-center text-xl  md:text-3xl lg:text-5xl font-medium">
           Our Products:

@@ -13,7 +13,7 @@ function App() {
     const fakeData = () => {
       setTimeout(() => {
         setLoading(false);
-      }, 1000);
+      }, 3000);
     };
     fakeData();
   }, []);

@@ -27,7 +27,7 @@ const Gallery = () => {
   ];
 
   return (
-    <div className="my-5">
+    <div className="my-5" id="gallery">
       <h1 className="text-center text-xl  md:text-3xl lg:text-5xl font-medium my-3">
         Gallery
       </h1>
